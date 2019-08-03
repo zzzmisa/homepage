@@ -6,7 +6,7 @@ title = "zzzmisa's homepage"
 copyright = "© zzzmisa's homepage"
 googleAnalytics = "UA-88635038-3"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-publishDir = "doc"
+publishDir = "docs"
 theme = "hugo-theme-doors"
 
 disableRSS = true
