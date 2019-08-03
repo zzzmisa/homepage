@@ -1,0 +1,65 @@
+# Page settings
+
+baseurl = "https://zzzmisa.com/"
+languageCode = "en-us"
+title = "zzzmisa's homepage"
+copyright = "© zzzmisa's homepage"
+googleAnalytics = "UA-88635038-3"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+publishDir = "doc"
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+description = ""
+ogimage = "https://zzzmisa.com/img/logo.png"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = "zzzmisa's blog"
+url = "https://blog.zzzmisa.com"
+description = "Technological posts and diaries. Japanese version only."
+image = "images/blog.jpg"
+w = "960"
+h = "540"
+
+[[params.projects.list]]
+title = "Misa's Odekake Blog"
+url = "https://odekake.zzzmisa.com"
+description = "Introducing my recommended spots around Osaka."
+image = "images/odekake.jpg"
+w = "960"
+h = "540"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "Featured Image Maker"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "Generator of simple featured images."
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "640"
+h = "426"
+
+[[params.subprojects.list]]
+title = "Curry Jack"
+url = "https://curryjack.zzzmisa.com"
+description = "The game made with open data. Japanese version only."
+image = "https://curryjack.zzzmisa.com/ogimage.jpg"
+w = "728"
+h = "489"
+
+# Contact section
+[params.contact]
+twitter = "https://twitter.com/zzzmisa"
+facebook = ""
+linkedin = "https://twitter.com/zzzmisa"
+github = "https://github.com/zzzmisa"
+email = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
