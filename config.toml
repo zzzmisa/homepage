@@ -32,7 +32,7 @@ h = "540"
 [[params.projects.list]]
 title = "Misa's Odekake Blog"
 url = "https://odekake.zzzmisa.com"
-description = "Introducing my recommended spots around Osaka."
+description = "My recommended spots around Osaka."
 image = "images/odekake.jpg"
 w = "960"
 h = "540"
