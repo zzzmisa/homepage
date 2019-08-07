@@ -56,6 +56,14 @@ image = "https://curryjack.zzzmisa.com/ogimage.jpg"
 w = "780"
 h = "524"
 
+[[params.subprojects.list]]
+title = "Hugo Theme Doors"
+url = "https://themes.gohugo.io/hugo-theme-doors/"
+description = "Single page theme for links to your works."
+image = "images/doors.png"
+w = "900"
+h = "600"
+
 # Contact section
 [params.contact]
 twitter = "https://twitter.com/zzzmisa"
