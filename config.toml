@@ -16,7 +16,7 @@ disable404 = true
 # Site information
 [params]
 description = ""
-ogimage = "https://zzzmisa.com/img/logo.png"
+ogimage = "https://zzzmisa.com/images/logo.png"
 
 # Project section
 [params.projects]
@@ -45,16 +45,16 @@ title = "Featured Image Maker"
 url = "https://featured-image-maker.zzzmisa.com/en/"
 description = "Generator of simple featured images."
 image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
-w = "640"
-h = "426"
+w = "780"
+h = "520"
 
 [[params.subprojects.list]]
 title = "Curry Jack"
 url = "https://curryjack.zzzmisa.com"
 description = "The game made with open data. Japanese version only."
 image = "https://curryjack.zzzmisa.com/ogimage.jpg"
-w = "728"
-h = "489"
+w = "780"
+h = "524"
 
 # Contact section
 [params.contact]
