@@ -51,7 +51,7 @@ h = "520"
 [[params.subprojects.list]]
 title = "Curry Jack"
 url = "https://curryjack.zzzmisa.com"
-description = "The game made with open data. Japanese version only."
+description = "The game made with open data curry."
 image = "https://curryjack.zzzmisa.com/ogimage.jpg"
 w = "780"
 h = "524"
@@ -63,6 +63,14 @@ description = "Single page theme for links to your works."
 image = "images/doors.png"
 w = "900"
 h = "600"
+
+[[params.subprojects.list]]
+title = "Japan GitHub Ranking"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "Ranking of GitHub repositories written in Japanese."
+image = "http://japan-github-ranking.zzzmisa.com/ogimage.png"
+w = "780"
+h = "520"
 
 # Contact section
 [params.contact]
