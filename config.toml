@@ -22,7 +22,7 @@ ogimage = "https://zzzmisa.com/images/logo.png"
 [params.projects]
 
 [[params.projects.list]]
-title = "zzzmisa's blog"
+title = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 description = "Technological posts and diaries. Japanese version only."
 image = "images/blog.jpg"
@@ -30,7 +30,7 @@ w = "960"
 h = "540"
 
 [[params.projects.list]]
-title = "Misa's Odekake Blog"
+title = "MISA'S ODEKAKE BLOG"
 url = "https://odekake.zzzmisa.com"
 description = "My recommended spots around Osaka."
 image = "images/odekake.jpg"
@@ -41,7 +41,7 @@ h = "540"
 [params.subprojects]
 
 [[params.subprojects.list]]
-title = "Featured Image Maker"
+title = "FEATURED IMAGE MAKER"
 url = "https://featured-image-maker.zzzmisa.com/en/"
 description = "Generator of simple featured images."
 image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
@@ -49,7 +49,7 @@ w = "780"
 h = "520"
 
 [[params.subprojects.list]]
-title = "Curry Jack"
+title = "CURRY JACK"
 url = "https://curryjack.zzzmisa.com"
 description = "The game made with open data curry."
 image = "https://curryjack.zzzmisa.com/ogimage.jpg"
@@ -57,7 +57,7 @@ w = "780"
 h = "524"
 
 [[params.subprojects.list]]
-title = "Hugo Theme Doors"
+title = "HUGO THEME DOORS"
 url = "https://themes.gohugo.io/hugo-theme-doors/"
 description = "Single page theme for links to your works."
 image = "images/doors.png"
@@ -65,7 +65,7 @@ w = "900"
 h = "600"
 
 [[params.subprojects.list]]
-title = "Japan GitHub Ranking"
+title = "JAPAN GITHUB RANKING"
 url = "https://japan-github-ranking.zzzmisa.com/"
 description = "Ranking of GitHub repositories written in Japanese."
 image = "http://japan-github-ranking.zzzmisa.com/ogimage.png"
@@ -74,7 +74,9 @@ h = "520"
 
 # Contact section
 [params.contact]
-description = "I would like to hear from you. Please contact me via email or social media."
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "I'm Misa, a software engineer based in Osaka, Japan. My work experiences are listed in LinkedIn. This site introduces my personal engineering projects. If you like any of the contents, please mention me on Twitter or click Star on GitHub ;)"
 twitter = "https://twitter.com/zzzmisa"
 facebook = ""
 linkedin = "https://twitter.com/zzzmisa"
