@@ -49,10 +49,10 @@ w = "780"
 h = "520"
 
 [[params.subprojects.list]]
-title = "CURRY JACK"
-url = "https://curryjack.zzzmisa.com"
-description = "The game made with open data curry."
-image = "https://curryjack.zzzmisa.com/ogimage.jpg"
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "Game using Open Data Curry."
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
 w = "780"
 h = "524"
 
