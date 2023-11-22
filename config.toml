@@ -4,7 +4,6 @@ baseurl = "https://zzzmisa.com/"
 languageCode = "en-us"
 title = "zzzmisa's homepage"
 copyright = "© zzzmisa's homepage"
-googleAnalytics = "UA-88635038-3"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 publishDir = "docs"
 theme = "hugo-theme-doors"
@@ -15,6 +14,7 @@ disable404 = true
 
 # Site information
 [params]
+googleTagManager = "GTM-M5SJDZ36"
 description = ""
 ogimage = "https://zzzmisa.com/images/logo.png"
 
