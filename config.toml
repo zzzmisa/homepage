@@ -72,6 +72,14 @@ image = "http://japan-github-ranking.zzzmisa.com/ogimage.png"
 w = "780"
 h = "520"
 
+[[params.subprojects.list]]
+title = "Confusing Hiragana Quiz"
+url = "https://apps.apple.com/jp/app/id6760300781"
+description = "おおかみ or おうかみ? Learn by quizzes"
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
 # Contact section
 [params.contact]
 avatar = "images/avatar.png"
