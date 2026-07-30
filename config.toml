@@ -80,6 +80,31 @@ image = "images/confusing-hiragana.png"
 w = "900"
 h = "600"
 
+[[params.subprojects.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/jp/app/id6778625773"
+description = "Record & play family voices. Sound-play app for kids."
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[params.subprojects.list]]
+title = "Animal Vision Explorer"
+url = "https://apps.apple.com/jp/app/id6787888506"
+description = "See through animals' eyes."
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+# TODO: ややこしいきせつクイズ リリース後に URL を設定してコメントを外す
+# [[params.subprojects.list]]
+# title = "Tricky Japanese Seasons Quiz"
+# url = "https://apps.apple.com/jp/app/idXXXXXXXXXX"
+# description = "Japan's four seasons, by quiz."
+# image = "images/tricky-season.png"
+# w = "900"
+# h = "600"
+
 # Contact section
 [params.contact]
 avatar = "images/avatar.png"
