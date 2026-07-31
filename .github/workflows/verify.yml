@@ -1,0 +1,36 @@
+name: Verify site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.164.0"
+          extended: true
+
+      - name: Check out pinned theme
+        run: |
+          git init themes/hugo-theme-doors
+          git -C themes/hugo-theme-doors remote add origin https://github.com/zzzmisa/hugo-theme-doors.git
+          git -C themes/hugo-theme-doors fetch --depth 1 origin 13bcf4552b1fbaf4358981b3ce303ecd6f3de9c9
+          git -C themes/hugo-theme-doors checkout --detach FETCH_HEAD
+
+      - name: Verify generated site
+        run: |
+          hugo
+          git diff --exit-code -- docs
