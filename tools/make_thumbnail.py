@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#   "pillow==12.3.0",
+# ]
+# ///
+
 """アプリアイコンからホームページ掲載用サムネイルを生成するCLIツール。
 
 アイコンのドミナントカラー（主要色）を抽出し、その色相のクリーンな
@@ -6,10 +13,10 @@
 アイコンを影付きで載せる。単一色相なので濁った色にならない。
 
 使い方:
-    python3 tools/make_thumbnail.py <icon> <output> [options]
+    uv run tools/make_thumbnail.py <icon> <output> [options]
 
 例:
-    python3 tools/make_thumbnail.py app_icon.png static/images/chibireco.png
+    uv run tools/make_thumbnail.py app_icon.png static/images/chibireco.png
 
 背景をアイコンのぼかし画像にしたい場合は --bg-style blur を指定する。
 """
