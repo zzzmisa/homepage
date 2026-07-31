@@ -10,7 +10,7 @@ theme = "hugo-theme-doors"
 # Site information
 [params]
 googleTagManager = "GTM-M5SJDZ36"
-description = "Misa's personal engineering projects."
+description = ""
 ogimage = "https://zzzmisa.com/images/avatar.png"
 twitterSite = "@zzzmisa"
 
@@ -25,54 +25,14 @@ image = "images/blog.jpg"
 w = "1233"
 h = "680"
 
-[[params.projects.list]]
-title = "MISA'S ODEKAKE BLOG"
-url = "https://odekake.zzzmisa.com"
-description = "My recommended spots around Osaka."
-image = "images/odekake.jpg"
-w = "960"
-h = "540"
-
 # Subproject section
 [params.subprojects]
 
 [[params.subprojects.list]]
-title = "FEATURED IMAGE MAKER"
-url = "https://featured-image-maker.zzzmisa.com/en/"
-description = "Generator of simple featured images."
-image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
-w = "780"
-h = "520"
-
-[[params.subprojects.list]]
-title = "CURRYJACK"
-url = "https://curryjack.zzzmisa.com/"
-description = "Game using Open Data Curry."
-image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
-w = "780"
-h = "524"
-
-[[params.subprojects.list]]
-title = "HUGO THEME DOORS"
-url = "https://github.com/zzzmisa/hugo-theme-doors"
-description = "Single page theme for links to your works."
-image = "images/doors.png"
-w = "900"
-h = "600"
-
-[[params.subprojects.list]]
-title = "JAPAN GITHUB RANKING"
-url = "https://japan-github-ranking.zzzmisa.com/"
-description = "Ranking of GitHub repositories written in Japanese."
-image = "https://japan-github-ranking.zzzmisa.com/ogimage.png"
-w = "780"
-h = "520"
-
-[[params.subprojects.list]]
-title = "Confusing Hiragana Quiz"
-url = "https://apps.apple.com/jp/app/id6760300781"
-description = "おおかみ or おうかみ? Learn by quizzes"
-image = "images/confusing-hiragana.png"
+title = "Animal Vision Explorer"
+url = "https://apps.apple.com/jp/app/id6787888506"
+description = "See through animals' eyes."
+image = "images/animal-vision.png"
 w = "900"
 h = "600"
 
@@ -85,12 +45,44 @@ w = "900"
 h = "600"
 
 [[params.subprojects.list]]
-title = "Animal Vision Explorer"
-url = "https://apps.apple.com/jp/app/id6787888506"
-description = "See through animals' eyes."
-image = "images/animal-vision.png"
+title = "Confusing Hiragana Quiz"
+url = "https://apps.apple.com/jp/app/id6760300781"
+description = "おおかみ or おうかみ? Learn by quizzes"
+image = "images/confusing-hiragana.png"
 w = "900"
 h = "600"
+
+[[params.subprojects.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "Ranking of GitHub repositories written in Japanese."
+image = "https://japan-github-ranking.zzzmisa.com/ogimage.png"
+w = "780"
+h = "520"
+
+[[params.subprojects.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "Single page theme for links to your works."
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[params.subprojects.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "Game using Open Data Curry."
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[params.subprojects.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "Generator of simple featured images."
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
 
 # TODO: ややこしいきせつクイズ リリース後に URL を設定してコメントを外す
 # [[params.subprojects.list]]
@@ -101,11 +93,19 @@ h = "600"
 # w = "900"
 # h = "600"
 
+[[params.subprojects.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "My recommended spots around Osaka."
+image = "images/odekake.jpg"
+w = "960"
+h = "540"
+
 # Contact section
 [params.contact]
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "I'm Misa, a software engineer based in Osaka, Japan. My work experiences are listed in LinkedIn. This site introduces my personal engineering projects. If you like any of the contents, please mention me on Twitter or click Star on GitHub ;)"
+description = "I'm Misa, a software engineer based in Osaka, Japan. My work experiences are listed in LinkedIn. This site introduces my personal engineering projects. If you like any of the contents, please mention me on X or click Star on GitHub ;)"
 x = "https://x.com/zzzmisa"
 linkedin = "https://www.linkedin.com/in/zzzmisa"
 github = "https://github.com/zzzmisa"
