@@ -84,14 +84,13 @@ image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
 w = "780"
 h = "520"
 
-# TODO: ややこしいきせつクイズ リリース後に URL を設定してコメントを外す
-# [[params.subprojects.list]]
-# title = "Tricky Japanese Seasons Quiz"
-# url = "https://apps.apple.com/jp/app/idXXXXXXXXXX"
-# description = "Japan's four seasons, by quiz."
-# image = "images/tricky-season.png"
-# w = "900"
-# h = "600"
+[[params.subprojects.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/jp/app/id6793947794"
+description = "Japan's four seasons, by quiz."
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
 
 [[params.subprojects.list]]
 title = "MISA'S ODEKAKE BLOG"
