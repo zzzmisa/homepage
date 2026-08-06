@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# requires-python = ">=3.10"
-# dependencies = [
-#   "pillow==12.3.0",
-# ]
-# ///
-
 """アプリアイコンからホームページ掲載用サムネイルを生成するCLIツール。
 
 アイコンのドミナントカラー（主要色）を抽出し、その色相のクリーンな
@@ -13,10 +6,10 @@
 アイコンを影付きで載せる。単一色相なので濁った色にならない。
 
 使い方:
-    uv run tools/make_thumbnail.py <icon> <output> [options]
+    python3 tools/make_thumbnail.py <icon> <output> [options]
 
 例:
-    uv run tools/make_thumbnail.py app_icon.png static/images/chibireco.png
+    python3 tools/make_thumbnail.py app_icon.png static/images/chibireco.png
 
 背景をアイコンのぼかし画像にしたい場合は --bg-style blur を指定する。
 """
@@ -57,10 +50,13 @@ def dominant_hue(icon: Image.Image) -> float:
     return best_hue
 
 
-def make_tint_background(icon: Image.Image, size: tuple[int, int], sat: float) -> Image.Image:
-    """ドミナント色相のクリーンなパステル縦グラデーション背景を返す。"""
+def make_tint_background(icon: Image.Image, size: tuple[int, int], sat: float, hue_deg: float | None) -> Image.Image:
+    """ドミナント色相のクリーンなパステル縦グラデーション背景を返す。
+
+    hue_deg (0-360) を指定するとドミナント色の代わりにその色相を使う。
+    """
     w, h = size
-    hue = dominant_hue(icon)
+    hue = (hue_deg / 360) % 1.0 if hue_deg is not None else dominant_hue(icon)
     top = colorsys.hsv_to_rgb(hue, sat * 0.7, 1.0)
     bottom = colorsys.hsv_to_rgb(hue, min(1.0, sat * 1.3), 0.97)
     grad = Image.new("RGB", (1, h))
@@ -158,7 +154,7 @@ def generate(args: argparse.Namespace) -> None:
 
     w, h = args.size
     if args.bg_style == "tint":
-        bg = make_tint_background(icon, args.size, args.tint_sat)
+        bg = make_tint_background(icon, args.size, args.tint_sat, args.hue)
     else:
         bg = make_blur_background(
             icon, args.size, args.bg_blur, args.bg_brightness, args.bg_lighten, args.bg_saturation
@@ -187,6 +183,7 @@ def main() -> None:
     parser.add_argument("--radius", type=float, default=0.2237, help="角丸半径のアイコン辺比率 (デフォルト: iOS風 0.2237)")
     parser.add_argument("--bg-style", choices=["tint", "blur"], default="tint", help="背景の種類 (デフォルト: tint)")
     parser.add_argument("--tint-sat", type=float, default=0.22, help="tint背景の彩度 (デフォルト: 0.22)")
+    parser.add_argument("--hue", type=float, default=None, help="tint背景の色相 0-360 (省略時はアイコンから自動抽出)")
     parser.add_argument("--bg-blur", type=float, default=60, help="blur背景のぼかし半径 (デフォルト: 60)")
     parser.add_argument("--bg-brightness", type=float, default=1.0, help="blur背景の明るさ倍率 (デフォルト: 1.0)")
     parser.add_argument("--bg-lighten", type=float, default=0.42, help="blur背景の白ブレンド率 0-1 (デフォルト: 0.42)")
