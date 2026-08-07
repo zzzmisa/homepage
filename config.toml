@@ -29,6 +29,14 @@ h = "680"
 [params.subprojects]
 
 [[params.subprojects.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/jp/app/id6793947794"
+description = "Japan's four seasons, by quiz."
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[params.subprojects.list]]
 title = "Animal Vision Explorer"
 url = "https://apps.apple.com/jp/app/id6787888506"
 description = "See through animals' eyes."
@@ -45,7 +53,7 @@ w = "900"
 h = "600"
 
 [[params.subprojects.list]]
-title = "Confusing Hiragana Quiz"
+title = "Tricky Hiragana Quiz"
 url = "https://apps.apple.com/jp/app/id6760300781"
 description = "おおかみ or おうかみ? Learn by quizzes"
 image = "images/confusing-hiragana.png"
@@ -83,14 +91,6 @@ description = "Generator of simple featured images."
 image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
 w = "780"
 h = "520"
-
-[[params.subprojects.list]]
-title = "Tricky Japanese Seasons Quiz"
-url = "https://apps.apple.com/jp/app/id6793947794"
-description = "Japan's four seasons, by quiz."
-image = "images/tricky-season.png"
-w = "900"
-h = "600"
 
 [[params.subprojects.list]]
 title = "MISA'S ODEKAKE BLOG"
