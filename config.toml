@@ -64,7 +64,7 @@ h = "600"
 title = "JAPAN GITHUB RANKING"
 url = "https://japan-github-ranking.zzzmisa.com/"
 description = "Ranking of GitHub repositories written in Japanese."
-image = "https://japan-github-ranking.zzzmisa.com/ogimage.png"
+image = "images/japan-github-ranking.png"
 w = "780"
 h = "520"
 
