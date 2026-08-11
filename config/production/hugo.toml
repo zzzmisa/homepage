@@ -1,3 +1,6 @@
 publishDir = "docs"
 cleanDestinationDir = true
 panicOnWarning = true
+
+[minify]
+minifyOutput = true
