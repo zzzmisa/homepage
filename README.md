@@ -8,7 +8,7 @@ Hugo `v0.164.0` とuvを使用します。
 
 ```
 $ git clone https://github.com/zzzmisa/hugo-theme-doors.git themes/hugo-theme-doors
-$ git -C themes/hugo-theme-doors checkout 042d080afc7d7de8841c85aae6ab37e0e3562e3a
+$ git -C themes/hugo-theme-doors checkout e898ab3fcdff7d68ca05b397004eaaff745dafd3
 ```
 
 使用するテーマは上記のコミットに固定します。
