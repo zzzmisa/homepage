@@ -51,7 +51,7 @@ h = "600"
 [[params.subprojects.groups.list]]
 title = "ChibiReco"
 url = "https://apps.apple.com/jp/app/id6778625773"
-description = "Record & play family voices. Sound-play app for kids."
+description = "Turn your family's voices into sound buttons."
 image = "images/chibireco.png"
 w = "900"
 h = "600"
