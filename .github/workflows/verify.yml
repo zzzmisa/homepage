@@ -27,7 +27,7 @@ jobs:
         run: |
           git init themes/hugo-theme-doors
           git -C themes/hugo-theme-doors remote add origin https://github.com/zzzmisa/hugo-theme-doors.git
-          git -C themes/hugo-theme-doors fetch --depth 1 origin e898ab3fcdff7d68ca05b397004eaaff745dafd3
+          git -C themes/hugo-theme-doors fetch --depth 1 origin 2f584f303d2039376cbcd1f13e4faa71111a7fa7
           git -C themes/hugo-theme-doors checkout --detach FETCH_HEAD
 
       - name: Verify generated site
