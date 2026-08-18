@@ -111,6 +111,7 @@ h = "540"
 
 # Contact section
 [params.contact]
+position = "top"
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
 description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases the apps and web projects I create. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way—inspired by what sparks my child's curiosity. :)"
