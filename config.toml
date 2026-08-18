@@ -1,24 +1,35 @@
 # Page settings
 
 baseURL = "https://zzzmisa.com/"
-locale = "en-US"
-title = "zzzmisa's homepage"
-copyright = "© zzzmisa's homepage"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 disableKinds = ["taxonomy", "term", "rss", "sitemap", "404"]
 theme = "hugo-theme-doors"
 
-# Site information
+# Settings shared by all languages
 [params]
 googleTagManager = "GTM-M5SJDZ36"
-description = ""
 ogimage = "https://zzzmisa.com/images/avatar.png"
 twitterSite = "@zzzmisa"
 
-# Project section
-[params.projects]
+# English
+[languages.en]
+locale = "en-US"
+label = "English"
+title = "zzzmisa's homepage"
+copyright = "© zzzmisa's homepage"
+weight = 1
+
+[languages.en.params]
+languageSelector = "Language"
+
+[languages.en.params.metadata]
+description = "Recently, inspired by my child's reactions, I've been creating apps that parents and children can enjoy together—and learn a little along the way."
+
+[languages.en.params.projects]
 
 # 一時的に非表示
-# [[params.projects.list]]
+# [[languages.en.params.projects.list]]
 # title = "ZZZMISA'S BLOG"
 # url = "https://blog.zzzmisa.com"
 # description = "Technological posts and diaries. Japanese version only."
@@ -26,14 +37,13 @@ twitterSite = "@zzzmisa"
 # w = "1233"
 # h = "680"
 
-# Subproject section
-[params.subprojects]
+[languages.en.params.subprojects]
 
-[[params.subprojects.groups]]
+[[languages.en.params.subprojects.groups]]
 title = "Family-friendly Apps"
 divider = true
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "Tricky Japanese Seasons Quiz"
 url = "https://apps.apple.com/jp/app/id6793947794"
 description = "Japan's four seasons, by quiz."
@@ -41,15 +51,15 @@ image = "images/tricky-season.png"
 w = "900"
 h = "600"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "Animal Vision Explorer"
 url = "https://apps.apple.com/jp/app/id6787888506"
-description = "See through animals' eyes."
+description = "See through animals' eyes, including compound eyes."
 image = "images/animal-vision.png"
 w = "900"
 h = "600"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "ChibiReco"
 url = "https://apps.apple.com/jp/app/id6778625773"
 description = "Turn your family's voices into sound buttons."
@@ -57,7 +67,7 @@ image = "images/chibireco.png"
 w = "900"
 h = "600"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "Tricky Hiragana Quiz"
 url = "https://apps.apple.com/jp/app/id6760300781"
 description = "おおかみ or おうかみ? Learn by quizzes"
@@ -65,11 +75,11 @@ image = "images/confusing-hiragana.png"
 w = "900"
 h = "600"
 
-[[params.subprojects.groups]]
+[[languages.en.params.subprojects.groups]]
 title = "Web Projects"
 divider = true
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "JAPAN GITHUB RANKING"
 url = "https://japan-github-ranking.zzzmisa.com/"
 description = "Ranking of GitHub repositories written in Japanese."
@@ -77,7 +87,7 @@ image = "images/japan-github-ranking.png"
 w = "780"
 h = "520"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "HUGO THEME DOORS"
 url = "https://github.com/zzzmisa/hugo-theme-doors"
 description = "Single page theme for links to your works."
@@ -85,7 +95,7 @@ image = "images/doors.png"
 w = "900"
 h = "600"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "CURRYJACK"
 url = "https://curryjack.zzzmisa.com/"
 description = "Game using Open Data Curry."
@@ -93,7 +103,7 @@ image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
 w = "780"
 h = "524"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "FEATURED IMAGE MAKER"
 url = "https://featured-image-maker.zzzmisa.com/en/"
 description = "Generator of simple featured images."
@@ -101,42 +111,317 @@ image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
 w = "780"
 h = "520"
 
-[[params.subprojects.groups.list]]
+[[languages.en.params.subprojects.groups.list]]
 title = "MISA'S ODEKAKE BLOG"
 url = "https://odekake.zzzmisa.com"
-description = "My recommended spots around Osaka."
+description = "My recommended spots around Osaka. (On a break.)"
 image = "images/odekake.jpg"
 w = "960"
 h = "540"
 
-# Contact section
-[params.contact]
+[languages.en.params.contact]
 position = "top"
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases the apps and web projects I create. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way—inspired by what sparks my child's curiosity. :)"
+description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases the apps and web projects I create. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way, inspired by what sparks my child's curiosity. :)"
 
-[[params.contact.links]]
+[[languages.en.params.contact.links]]
 label = "X"
 url = "https://x.com/zzzmisa"
 icon = "x"
 
-[[params.contact.links]]
+[[languages.en.params.contact.links]]
 label = "LinkedIn"
 url = "https://www.linkedin.com/in/zzzmisa"
 icon = "linkedin"
 
-[[params.contact.links]]
+[[languages.en.params.contact.links]]
 label = "GitHub"
 url = "https://github.com/zzzmisa"
 icon = "github"
 
-[[params.contact.links]]
+[[languages.en.params.contact.links]]
 label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
 
-[[params.contact.links]]
+[[languages.en.params.contact.links]]
+label = "Email"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+icon = "email"
+
+# Japanese
+[languages.ja]
+locale = "ja-JP"
+label = "日本語"
+title = "zzzmisaのホームページ"
+copyright = "© zzzmisaのホームページ"
+weight = 2
+
+[languages.ja.params]
+languageSelector = "言語"
+
+[languages.ja.params.metadata]
+description = "最近は、わが子の反応をヒントに、親子で遊べてちょっと学べるアプリをつくっています。"
+
+[languages.ja.params.projects]
+
+# 一時的に非表示
+# [[languages.ja.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "技術記事と日記。日本語版のみです。"
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.ja.params.subprojects]
+
+[[languages.ja.params.subprojects.groups]]
+title = "子ども・家族向けアプリ"
+divider = true
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/jp/app/id6793947794"
+description = "小学校受験・幼稚園受験で問われる「季節の常識」クイズ"
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "Animal Vision Explorer"
+url = "https://apps.apple.com/jp/app/id6787888506"
+description = "複眼など、いきものの「みえ方」をカメラで疑似体験"
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/jp/app/id6778625773"
+description = "録音した音声をボタンに。家族で楽しめるサウンドボード"
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/jp/app/id6760300781"
+description = "おおかみ？おうかみ？ クイズで学習"
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.ja.params.subprojects.groups]]
+title = "Webプロジェクト"
+divider = true
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "日本語GitHubリポジトリのランキング"
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "作品へのリンクをまとめるシングルページのHugoテーマ"
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "オープンデータカレーを使ったゲーム"
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "シンプルなアイキャッチ画像ジェネレーター"
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.ja.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "大阪周辺のおすすめスポット紹介（お休み中）"
+image = "images/odekake.jpg"
+w = "960"
+h = "540"
+
+[languages.ja.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "大阪在住のソフトウェアエンジニア、Misaです。職歴はLinkedInに掲載しています。このサイトでは個人開発したアプリやWebプロジェクトを紹介しています。最近は、わが子の反応をヒントに、親子で遊べてちょっと学べるアプリをつくっています :)"
+
+[[languages.ja.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.ja.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.ja.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.ja.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[[languages.ja.params.contact.links]]
+label = "Email"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+icon = "email"
+
+# Simplified Chinese
+[languages.zh]
+locale = "zh-CN"
+label = "简体中文"
+title = "zzzmisa 的主页"
+copyright = "© zzzmisa 的主页"
+weight = 3
+
+[languages.zh.params]
+languageSelector = "语言"
+
+[languages.zh.params.metadata]
+description = "最近，我从孩子的反应中获得灵感，制作亲子可以一起玩、也能顺便学点东西的应用。"
+
+[languages.zh.params.projects]
+
+# 一時的に非表示
+# [[languages.zh.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "技术文章和日常记录。仅提供日语版。"
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.zh.params.subprojects]
+
+[[languages.zh.params.subprojects.groups]]
+title = "适合儿童与家庭的应用"
+divider = true
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/jp/app/id6793947794"
+description = "日本幼儿园及小学入学考试中的“四季常识”测验"
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "Animal Vision Explorer"
+url = "https://apps.apple.com/jp/app/id6787888506"
+description = "通过相机模拟复眼等动物视觉的学习应用"
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/jp/app/id6778625773"
+description = "让录下的声音变成按钮，全家一起玩的趣味音效板"
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/jp/app/id6760300781"
+description = "おおかみ还是おうかみ？日语平假名趣味测验"
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.zh.params.subprojects.groups]]
+title = "Web 项目"
+divider = true
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "日语 GitHub 仓库排行榜"
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "汇总作品链接的单页 Hugo 主题"
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "使用 Open Data Curry 的游戏"
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "简洁特色图片生成工具"
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.zh.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "大阪周边推荐景点（暂停更新）"
+image = "images/odekake.jpg"
+w = "960"
+h = "540"
+
+[languages.zh.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "我是居住在日本大阪的软件工程师 Misa。你可以在 LinkedIn 上查看我的工作经历。这个网站展示了我开发的应用和 Web 项目。最近，我从孩子感兴趣的事物中获得灵感，专注于制作亲子可以一起玩、也能顺便学点东西的应用。 :)"
+
+[[languages.zh.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.zh.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.zh.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.zh.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[[languages.zh.params.contact.links]]
 label = "Email"
 url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
 icon = "email"
