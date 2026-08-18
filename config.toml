@@ -145,10 +145,19 @@ label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
 
-[[languages.en.params.contact.links]]
-label = "Email"
+[languages.en.params.footer]
+
+[[languages.en.params.footer.links]]
+label = "Contact"
 url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
-icon = "email"
+
+[[languages.en.params.footer.links]]
+label = "Terms of Use"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.en.params.footer.links]]
+label = "Privacy Policy"
+url = "https://blog.zzzmisa.com/privacy/"
 
 # Japanese
 [languages.ja]
@@ -283,10 +292,19 @@ label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
 
-[[languages.ja.params.contact.links]]
-label = "Email"
+[languages.ja.params.footer]
+
+[[languages.ja.params.footer.links]]
+label = "お問い合わせ"
 url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
-icon = "email"
+
+[[languages.ja.params.footer.links]]
+label = "利用規約"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.ja.params.footer.links]]
+label = "プライバシーポリシー"
+url = "https://blog.zzzmisa.com/privacy/"
 
 # Simplified Chinese
 [languages.zh]
@@ -421,7 +439,16 @@ label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
 
-[[languages.zh.params.contact.links]]
-label = "Email"
+[languages.zh.params.footer]
+
+[[languages.zh.params.footer.links]]
+label = "联系我们"
 url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
-icon = "email"
+
+[[languages.zh.params.footer.links]]
+label = "使用条款"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.zh.params.footer.links]]
+label = "隐私政策"
+url = "https://blog.zzzmisa.com/privacy/"
