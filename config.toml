@@ -17,13 +17,14 @@ twitterSite = "@zzzmisa"
 # Project section
 [params.projects]
 
-[[params.projects.list]]
-title = "ZZZMISA'S BLOG"
-url = "https://blog.zzzmisa.com"
-description = "Technological posts and diaries. Japanese version only."
-image = "images/blog.jpg"
-w = "1233"
-h = "680"
+# 一時的に非表示
+# [[params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "Technological posts and diaries. Japanese version only."
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
 
 # Subproject section
 [params.subprojects]
@@ -112,8 +113,29 @@ h = "540"
 [params.contact]
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "I'm Misa, a software engineer based in Osaka, Japan. My work experiences are listed in LinkedIn. This site introduces my personal engineering projects. If you like any of the contents, please mention me on X or click Star on GitHub ;)"
-x = "https://x.com/zzzmisa"
-linkedin = "https://www.linkedin.com/in/zzzmisa"
-github = "https://github.com/zzzmisa"
-email = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases the apps and web projects I create. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way—inspired by what sparks my child's curiosity. :)"
+
+[[params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[[params.contact.links]]
+label = "Email"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+icon = "email"
