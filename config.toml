@@ -141,6 +141,11 @@ url = "https://github.com/zzzmisa"
 icon = "github"
 
 [[languages.en.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.en.params.contact.links]]
 label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
@@ -288,6 +293,11 @@ url = "https://github.com/zzzmisa"
 icon = "github"
 
 [[languages.ja.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.ja.params.contact.links]]
 label = "ZZZMISA'S BLOG"
 url = "https://blog.zzzmisa.com"
 icon = "images/icons/newspaper.svg"
@@ -433,6 +443,11 @@ icon = "linkedin"
 label = "GitHub"
 url = "https://github.com/zzzmisa"
 icon = "github"
+
+[[languages.zh.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
 
 [[languages.zh.params.contact.links]]
 label = "ZZZMISA'S BLOG"
