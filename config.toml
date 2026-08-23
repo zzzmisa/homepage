@@ -123,7 +123,7 @@ h = "600"
 position = "top"
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases the apps and web projects I create. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way, inspired by what sparks my child's curiosity. :)"
+description = "I'm Misa, a software engineer based in Osaka, Japan. You can find my professional background on LinkedIn. This site showcases projects I develop independently. These days, I'm focused on building apps that families can enjoy together, with a little learning along the way, inspired by what sparks my child's curiosity. :)<br><br>For volume app deployment at businesses and educational institutions, please use the <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">contact form</a>."
 
 [[languages.en.params.contact.links]]
 label = "X"
@@ -162,7 +162,7 @@ url = "https://policies.zzzmisa.com/terms"
 
 [[languages.en.params.footer.links]]
 label = "Privacy Policy"
-url = "https://blog.zzzmisa.com/privacy/"
+url = "https://policies.zzzmisa.com/privacy"
 
 # Japanese
 [languages.ja]
@@ -275,7 +275,7 @@ h = "600"
 position = "top"
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "大阪在住のソフトウェアエンジニア、Misaです。職歴はLinkedInに掲載しています。このサイトでは個人開発したアプリやWebプロジェクトを紹介しています。最近は、わが子の反応をヒントに、親子で遊べてちょっと学べるアプリをつくっています :)"
+description = "大阪在住のソフトウェアエンジニア、Misaです。職歴はLinkedInに掲載しています。このサイトでは個人で開発したプロジェクトを紹介しています。最近は、わが子の反応をヒントに、親子で遊べてちょっと学べるアプリをつくっています :)<br><br>法人・教育機関でのアプリ一括導入をご検討の方は、<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">お問い合わせフォーム</a>よりご連絡ください。"
 
 [[languages.ja.params.contact.links]]
 label = "X"
@@ -314,7 +314,7 @@ url = "https://policies.zzzmisa.com/terms"
 
 [[languages.ja.params.footer.links]]
 label = "プライバシーポリシー"
-url = "https://blog.zzzmisa.com/privacy/"
+url = "https://policies.zzzmisa.com/privacy"
 
 # Simplified Chinese
 [languages.zh]
@@ -427,7 +427,7 @@ h = "600"
 position = "top"
 avatar = "images/avatar.png"
 name = "MISA / @zzzmisa"
-description = "我是居住在日本大阪的软件工程师 Misa。你可以在 LinkedIn 上查看我的工作经历。这个网站展示了我开发的应用和 Web 项目。最近，我从孩子感兴趣的事物中获得灵感，专注于制作亲子可以一起玩、也能顺便学点东西的应用。 :)"
+description = "我是居住在日本大阪的软件工程师 Misa。你可以在 LinkedIn 上查看我的工作经历。这个网站展示了我个人开发的项目。最近，我从孩子感兴趣的事物中获得灵感，专注于制作亲子可以一起玩、也能顺便学点东西的应用。 :)<br><br>如企业或教育机构希望批量部署应用，请通过<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">联系表单</a>与我联系。"
 
 [[languages.zh.params.contact.links]]
 label = "X"
@@ -466,4 +466,4 @@ url = "https://policies.zzzmisa.com/terms"
 
 [[languages.zh.params.footer.links]]
 label = "隐私政策"
-url = "https://blog.zzzmisa.com/privacy/"
+url = "https://policies.zzzmisa.com/privacy"
