@@ -8,7 +8,7 @@ Hugo `v0.164.0` とuvを使用します。
 
 ```
 $ git clone https://github.com/zzzmisa/hugo-theme-doors.git themes/hugo-theme-doors
-$ git -C themes/hugo-theme-doors checkout 5fa144ce3d078550718b31cc991ff02ae57df8a9
+$ git -C themes/hugo-theme-doors checkout 336291c254c42a402acb54e00896512acce375e6
 ```
 
 使用するテーマは上記のコミットに固定します。
@@ -31,7 +31,8 @@ Hugo標準の `public/` であり、公開用の `docs/` は更新しません�
 
 言語ごとのURLは次のとおりです。
 
-- 英語: `/`
+- ルート: ブラウザの優先言語に応じて表示
+- 英語: `/en/`
 - 日本語: `/ja/`
 - 簡体字中国語: `/zh/`
 
