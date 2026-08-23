@@ -196,7 +196,7 @@ title = "子ども・家族向けアプリ"
 divider = true
 
 [[languages.ja.params.subprojects.groups.list]]
-title = "Tricky Japanese Seasons Quiz"
+title = "ややこしいきせつクイズ"
 url = "https://apps.apple.com/jp/app/id6793947794?l=ja-JP"
 description = "小学校受験・幼稚園受験で問われる「季節の常識」クイズ"
 image = "images/tricky-season.png"
@@ -204,7 +204,7 @@ w = "900"
 h = "600"
 
 [[languages.ja.params.subprojects.groups.list]]
-title = "Animal Vision Explorer"
+title = "みえかた図鑑"
 url = "https://apps.apple.com/jp/app/id6787888506?l=ja-JP"
 description = "複眼など、いきものの「みえ方」をカメラで疑似体験"
 image = "images/animal-vision.png"
@@ -212,7 +212,7 @@ w = "900"
 h = "600"
 
 [[languages.ja.params.subprojects.groups.list]]
-title = "ChibiReco"
+title = "ちびレコ"
 url = "https://apps.apple.com/jp/app/id6778625773?l=ja-JP"
 description = "録音した音声をボタンに。家族で楽しめるサウンドボード"
 image = "images/chibireco.png"
@@ -220,7 +220,7 @@ w = "900"
 h = "600"
 
 [[languages.ja.params.subprojects.groups.list]]
-title = "Tricky Hiragana Quiz"
+title = "ややこしいひらがなクイズ"
 url = "https://apps.apple.com/jp/app/id6760300781?l=ja-JP"
 description = "おおかみ？おうかみ？ クイズで学習"
 image = "images/confusing-hiragana.png"
@@ -348,7 +348,7 @@ title = "适合儿童与家庭的应用"
 divider = true
 
 [[languages.zh.params.subprojects.groups.list]]
-title = "Tricky Japanese Seasons Quiz"
+title = "容易混淆的日本季节测试"
 url = "https://apps.apple.com/us/app/id6793947794?l=zh-Hans-CN"
 description = "日本幼儿园及小学入学考试中的“四季常识”测验"
 image = "images/tricky-season.png"
@@ -356,7 +356,7 @@ w = "900"
 h = "600"
 
 [[languages.zh.params.subprojects.groups.list]]
-title = "Animal Vision Explorer"
+title = "动物视界图鉴"
 url = "https://apps.apple.com/us/app/id6787888506?l=zh-Hans-CN"
 description = "通过相机模拟复眼等动物视觉的学习应用"
 image = "images/animal-vision.png"
@@ -372,7 +372,7 @@ w = "900"
 h = "600"
 
 [[languages.zh.params.subprojects.groups.list]]
-title = "Tricky Hiragana Quiz"
+title = "易混淆平假名测验"
 url = "https://apps.apple.com/us/app/id6760300781?l=zh-Hans-CN"
 description = "おおかみ还是おうかみ？日语平假名趣味测验"
 image = "images/confusing-hiragana.png"
