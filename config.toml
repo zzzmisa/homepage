@@ -467,3 +467,611 @@ url = "https://policies.zzzmisa.com/terms"
 [[languages.zh.params.footer.links]]
 label = "隐私政策"
 url = "https://policies.zzzmisa.com/privacy"
+
+# Traditional Chinese (Taiwan)
+[languages.zh-hant]
+locale = "zh-TW"
+label = "繁體中文"
+title = "zzzmisa 的個人網站"
+copyright = "© zzzmisa 的個人網站"
+weight = 4
+
+[languages.zh-hant.params]
+languageSelector = "語言"
+
+[languages.zh-hant.params.metadata]
+description = "最近，我從孩子的反應中得到靈感，開發親子能一起玩、也能順便學點東西的 App。"
+
+[languages.zh-hant.params.projects]
+
+# 一時的に非表示
+# [[languages.zh-hant.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "技術文章與日記。僅提供日文版。"
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.zh-hant.params.subprojects]
+
+[[languages.zh-hant.params.subprojects.groups]]
+title = "親子 App"
+divider = true
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/tw/app/id6793947794?l=en"
+description = "日本幼稚園與小學入學考試常考的「季節常識」測驗"
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "動物視界圖鑑"
+url = "https://apps.apple.com/tw/app/id6787888506?l=zh-Hant-TW"
+description = "透過相機模擬體驗複眼等動物眼中的世界"
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/tw/app/id6778625773?l=zh-Hant-TW"
+description = "把錄下的聲音變成按鈕。全家同樂的音效板"
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/tw/app/id6760300781?l=en"
+description = "是おおかみ？還是おうかみ？用測驗學習"
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.zh-hant.params.subprojects.groups]]
+title = "Web 專案"
+divider = true
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "日文 GitHub 儲存庫排行榜"
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "彙整作品連結的單頁式 Hugo 佈景主題"
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "使用 Open Data Curry 的遊戲"
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "簡約精選圖片產生器"
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.zh-hant.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "大阪周邊推薦景點介紹（暫停更新中）"
+image = "images/odekake-subproject.jpg"
+w = "900"
+h = "600"
+
+[languages.zh-hant.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "我是 Misa，住在日本大阪的軟體工程師。我的工作經歷請見 LinkedIn。這個網站介紹的是我個人開發的專案。最近，我從孩子的反應中得到靈感，正在開發親子能一起玩、也能順便學點東西的 App :)<br><br>若企業或教育機構有大量採購 App 的需求，歡迎透過<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">聯絡表單</a>與我聯絡。"
+
+[[languages.zh-hant.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.zh-hant.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.zh-hant.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.zh-hant.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.zh-hant.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[languages.zh-hant.params.footer]
+
+[[languages.zh-hant.params.footer.links]]
+label = "聯絡我們"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+
+[[languages.zh-hant.params.footer.links]]
+label = "使用條款"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.zh-hant.params.footer.links]]
+label = "隱私權政策"
+url = "https://policies.zzzmisa.com/privacy"
+
+# Korean
+[languages.ko]
+locale = "ko-KR"
+label = "한국어"
+title = "zzzmisa의 홈페이지"
+copyright = "© zzzmisa의 홈페이지"
+weight = 5
+
+[languages.ko.params]
+languageSelector = "언어"
+
+[languages.ko.params.metadata]
+description = "요즘은 우리 아이의 반응을 힌트 삼아, 아이와 함께 놀면서 조금씩 배울 수 있는 앱을 만들고 있어요."
+
+[languages.ko.params.projects]
+
+# 一時的に非表示
+# [[languages.ko.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "기술 관련 글과 일기예요. 일본어판만 있어요."
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.ko.params.subprojects]
+
+[[languages.ko.params.subprojects.groups]]
+title = "아이와 가족을 위한 앱"
+divider = true
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/kr/app/id6793947794?l=en"
+description = "일본 초등학교·유치원 입학시험에 나오는 '계절 상식' 퀴즈"
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "동물 시각 도감"
+url = "https://apps.apple.com/kr/app/id6787888506?l=ko"
+description = "겹눈을 비롯한 동물의 눈에 비친 세상을 카메라로 간접 체험하는 앱"
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/kr/app/id6778625773?l=ko"
+description = "녹음한 목소리를 버튼으로. 온 가족이 함께 즐기는 사운드보드"
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/kr/app/id6760300781?l=en"
+description = "おおかみ? おうかみ? 퀴즈로 배우는 히라가나"
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.ko.params.subprojects.groups]]
+title = "웹 프로젝트"
+divider = true
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "일본어로 작성된 GitHub 저장소 랭킹"
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "작품 링크를 한곳에 모으는 싱글 페이지 Hugo 테마"
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "Open Data Curry를 활용한 게임"
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "심플한 대표 이미지 생성기"
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.ko.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "오사카 주변의 추천 장소 소개 (업데이트 쉬는 중)"
+image = "images/odekake-subproject.jpg"
+w = "900"
+h = "600"
+
+[languages.ko.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "일본 오사카에 사는 소프트웨어 엔지니어 Misa예요. 경력은 LinkedIn에서 확인하실 수 있어요. 이 사이트에서는 제가 개인적으로 개발한 프로젝트를 소개하고 있어요. 요즘은 우리 아이의 반응을 힌트 삼아, 아이와 함께 놀면서 조금씩 배울 수 있는 앱을 만들고 있어요 :)<br><br>기업이나 교육 기관에서 여러 기기에 앱을 일괄 도입하는 것을 검토하고 계신다면, <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">문의 양식</a>을 통해 연락해 주세요."
+
+[[languages.ko.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.ko.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.ko.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.ko.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.ko.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[languages.ko.params.footer]
+
+[[languages.ko.params.footer.links]]
+label = "문의하기"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+
+[[languages.ko.params.footer.links]]
+label = "이용 약관"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.ko.params.footer.links]]
+label = "개인정보 처리방침"
+url = "https://policies.zzzmisa.com/privacy"
+
+# Spanish (Spain)
+[languages.es]
+locale = "es-ES"
+label = "Español"
+title = "La web de zzzmisa"
+copyright = "© La web de zzzmisa"
+weight = 6
+
+[languages.es.params]
+languageSelector = "Idioma"
+
+[languages.es.params.metadata]
+description = "Últimamente, inspirándome en las reacciones de mis hijos, estoy creando apps para que padres e hijos jueguen juntos y aprendan un poco por el camino."
+
+[languages.es.params.projects]
+
+# 一時的に非表示
+# [[languages.es.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "Artículos técnicos y diario. Solo en japonés."
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.es.params.subprojects]
+
+[[languages.es.params.subprojects.groups]]
+title = "Apps para niños y familias"
+divider = true
+
+[[languages.es.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/es/app/id6793947794?l=en"
+description = "Quiz sobre las estaciones del año, como en las pruebas de admisión a infantil y primaria en Japón."
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "Explorador de Visión Animal"
+url = "https://apps.apple.com/es/app/id6787888506?l=es-ES"
+description = "Descubre con la cámara cómo ven los animales, ojos compuestos incluidos."
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/es/app/id6778625773?l=es-ES"
+description = "Graba sonidos y conviértelos en botones. Una botonera de sonidos para disfrutar en familia."
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/es/app/id6760300781?l=en"
+description = "¿おおかみ o おうかみ? Aprende hiragana con un quiz."
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.es.params.subprojects.groups]]
+title = "Proyectos web"
+divider = true
+
+[[languages.es.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "Ranking de repositorios de GitHub en japonés."
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "Tema de una sola página para Hugo que reúne los enlaces a tus trabajos."
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "Juego creado con los datos abiertos de Open Data Curry."
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "Generador de imágenes destacadas sencillas."
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.es.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "Sitios recomendados de Osaka y alrededores (en pausa)."
+image = "images/odekake-subproject.jpg"
+w = "900"
+h = "600"
+
+[languages.es.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "Soy Misa, me dedico a la ingeniería de software y vivo en Osaka (Japón). Puedes consultar mi trayectoria profesional en LinkedIn. En esta web presento los proyectos que desarrollo por mi cuenta. Últimamente, inspirándome en las reacciones de mis hijos, estoy creando apps con las que padres e hijos pueden jugar juntos y aprender un poco por el camino :)<br><br>Si quieres implantar mis apps en varios dispositivos de tu empresa o centro educativo, escríbeme a través del <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">formulario de contacto</a>."
+
+[[languages.es.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.es.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.es.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.es.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.es.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[languages.es.params.footer]
+
+[[languages.es.params.footer.links]]
+label = "Contacto"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+
+[[languages.es.params.footer.links]]
+label = "Condiciones de uso"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.es.params.footer.links]]
+label = "Política de privacidad"
+url = "https://policies.zzzmisa.com/privacy"
+
+# French (France)
+[languages.fr]
+locale = "fr-FR"
+label = "Français"
+title = "Site de zzzmisa"
+copyright = "© Site de zzzmisa"
+weight = 7
+
+[languages.fr.params]
+languageSelector = "Langue"
+
+[languages.fr.params.metadata]
+description = "Ces derniers temps, en m’inspirant des réactions de mon enfant, je crée des apps à partager entre parents et enfants, pour jouer et apprendre un peu au passage."
+
+[languages.fr.params.projects]
+
+# 一時的に非表示
+# [[languages.fr.params.projects.list]]
+# title = "ZZZMISA'S BLOG"
+# url = "https://blog.zzzmisa.com"
+# description = "Articles techniques et journal personnel. En japonais uniquement."
+# image = "images/blog.jpg"
+# w = "1233"
+# h = "680"
+
+[languages.fr.params.subprojects]
+
+[[languages.fr.params.subprojects.groups]]
+title = "Apps pour toute la famille"
+divider = true
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "Tricky Japanese Seasons Quiz"
+url = "https://apps.apple.com/fr/app/id6793947794?l=en"
+description = "Un quiz pour apprendre les quatre saisons du Japon."
+image = "images/tricky-season.png"
+w = "900"
+h = "600"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "Explorateur de Vision Animale"
+url = "https://apps.apple.com/fr/app/id6787888506?l=fr-FR"
+description = "Découvrez avec la caméra comment voient les animaux, y compris avec des yeux à facettes."
+image = "images/animal-vision.png"
+w = "900"
+h = "600"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "ChibiReco"
+url = "https://apps.apple.com/fr/app/id6778625773?l=fr-FR"
+description = "Transformez vos enregistrements en boutons sonores, pour s’amuser en famille."
+image = "images/chibireco.png"
+w = "900"
+h = "600"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "Tricky Hiragana Quiz"
+url = "https://apps.apple.com/fr/app/id6760300781?l=en"
+description = "おおかみ ou おうかみ ? Apprenez avec des quiz."
+image = "images/confusing-hiragana.png"
+w = "900"
+h = "600"
+
+[[languages.fr.params.subprojects.groups]]
+title = "Projets web"
+divider = true
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "JAPAN GITHUB RANKING"
+url = "https://japan-github-ranking.zzzmisa.com/"
+description = "Classement des dépôts GitHub rédigés en japonais."
+image = "images/japan-github-ranking.png"
+w = "780"
+h = "520"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "HUGO THEME DOORS"
+url = "https://github.com/zzzmisa/hugo-theme-doors"
+description = "Un thème Hugo sur une seule page pour regrouper les liens vers vos réalisations."
+image = "images/doors.png"
+w = "900"
+h = "600"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "CURRYJACK"
+url = "https://curryjack.zzzmisa.com/"
+description = "Un jeu basé sur Open Data Curry."
+image = "https://curryjack.zzzmisa.com/ogimage_en.jpg"
+w = "780"
+h = "524"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "FEATURED IMAGE MAKER"
+url = "https://featured-image-maker.zzzmisa.com/en/"
+description = "Un générateur d’images à la une sobres et épurées."
+image = "https://featured-image-maker.zzzmisa.com/img/logo.png"
+w = "780"
+h = "520"
+
+[[languages.fr.params.subprojects.groups.list]]
+title = "MISA'S ODEKAKE BLOG"
+url = "https://odekake.zzzmisa.com"
+description = "Mes bonnes adresses autour d’Osaka. (Actuellement en pause.)"
+image = "images/odekake-subproject.jpg"
+w = "900"
+h = "600"
+
+[languages.fr.params.contact]
+position = "top"
+avatar = "images/avatar.png"
+name = "MISA / @zzzmisa"
+description = "Je m’appelle Misa, je travaille dans le développement logiciel à Osaka, au Japon. Vous trouverez mon parcours professionnel sur LinkedIn. Ce site présente les projets que je développe à titre personnel. Ces derniers temps, en m’inspirant des réactions de mon enfant, je crée des apps à partager entre parents et enfants, pour jouer et apprendre un peu au passage :)<br><br>Si vous envisagez un achat en volume de mes apps pour votre entreprise ou votre établissement d’enseignement, n’hésitez pas à m’écrire via le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform\">formulaire de contact</a>."
+
+[[languages.fr.params.contact.links]]
+label = "X"
+url = "https://x.com/zzzmisa"
+icon = "x"
+
+[[languages.fr.params.contact.links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/zzzmisa"
+icon = "linkedin"
+
+[[languages.fr.params.contact.links]]
+label = "GitHub"
+url = "https://github.com/zzzmisa"
+icon = "github"
+
+[[languages.fr.params.contact.links]]
+label = "YouTube"
+url = "https://www.youtube.com/@zzzmisa"
+icon = "youtube"
+
+[[languages.fr.params.contact.links]]
+label = "ZZZMISA'S BLOG"
+url = "https://blog.zzzmisa.com"
+icon = "images/icons/newspaper.svg"
+
+[languages.fr.params.footer]
+
+[[languages.fr.params.footer.links]]
+label = "Contact"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdmZDfWbJXaHeG3EDmlgfXZXdfZw15Ot0gFwtpNbs3yIhTuJA/viewform"
+
+[[languages.fr.params.footer.links]]
+label = "Conditions d’utilisation"
+url = "https://policies.zzzmisa.com/terms"
+
+[[languages.fr.params.footer.links]]
+label = "Politique de confidentialité"
+url = "https://policies.zzzmisa.com/privacy"
